@@ -1,8 +1,8 @@
 package StepUp_UC_Assignments;
 
 /**
- * OOPSBannerApp UC4 – Rendering OOPS as a list
-        - using String.join() instead of +
+ * OOPSBannerApp UC4 – Render OOPS as Banner using String Array and Loop
+        - using a list along with String.join() and printing with a loop
  * @author Krish Aravind
  * @version 4.0
  */
