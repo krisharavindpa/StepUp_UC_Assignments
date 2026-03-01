@@ -1,22 +1,22 @@
 package StepUp_UC_Assignments;
 
 /**
- * OOPSBannerApp UC2 – Render OOPS as Banner using Print Statements
-        -OOPS made using asterisks
- * * @author Krish Aravind
- * @version 2.0
+ * OOPSBannerApp UC3 – Render OOPS as Banner using String.join()
+        - using String.join() instead of +
+ * @author Krish Aravind
+ * @version 3.0
  */
 
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
-        System.out.println("  *****    " +"  *****  "+"  ******   "+"   *****  ");
-        System.out.println(" **   **   " +" **   ** "+"  **   **  "+" **    ** ");
-        System.out.println("**     **  " +"**     **"+"  **   **  "+" **       ");
-        System.out.println("**     **  " +"**     **"+"  ******   "+"  ******  ");
-        System.out.println("**     **  " +"**     **"+"  **       "+"       ** ");
-        System.out.println(" **   **   " +" **   ** "+"  **       "+" **     **");
-        System.out.println("  *****    " +"  *****  "+"  **       "+"  ******  ");
+        System.out.println(String.join(" ","  *****    " ,"  *****  ","  ******   ","   *****  "));
+        System.out.println(String.join(" "," **   **   " ," **   ** ","  **   **  "," **    ** "));
+        System.out.println(String.join(" ","**     **  " ,"**     **","  **   **  "," **       "));
+        System.out.println(String.join(" ","**     **  " ,"**     **","  ******   ","  ******  "));
+        System.out.println(String.join(" ","**     **  " ,"**     **","  **       ","       ** "));
+        System.out.println(String.join(" "," **   **   " ," **   ** ","  **       "," **     **"));
+        System.out.println(String.join(" ","  *****    " ,"  *****  ","  **       ","  ******  "));
         
 
     }
